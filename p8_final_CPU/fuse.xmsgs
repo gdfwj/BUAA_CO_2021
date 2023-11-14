@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/works/computer organization/p8/p8_final_CPU/mips.v" Line 107: Port <arg fmt="%s" index="1">w_grf_addr</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/works/computer organization/p8/p8_final_CPU/mips.v" Line 182: Port <arg fmt="%s" index="1">ACK_O</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/works/computer organization/p8/p8_final_CPU/datapath.v" Line 146: Port <arg fmt="%s" index="1">jal</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/works/computer organization/p8/p8_final_CPU/MEM.v" Line 163: Port <arg fmt="%s" index="1">EXLSet</arg> is not connected to this instance
+</msg>
+
+</messages>
+

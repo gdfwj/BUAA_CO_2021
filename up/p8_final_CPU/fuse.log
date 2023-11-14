@@ -1,0 +1,89 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/works/computer organization/p8/up/p8_final_CPU/mips_tb_isim_beh.exe -prj D:/works/computer organization/p8/up/p8_final_CPU/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/ipcore_dir/clk_CPU.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/IFU.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/GRF.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/CP0.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/Controller.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/ALU.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/src/utils.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/src/txd.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/src/rxd.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/MEMtoRB.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/MEM.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/IFtoID.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/IF.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/IDtoEX.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/ID.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/EXtoMEM.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/EX.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/src/uart.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/numerical_tube_driver.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/ipcore_dir/IM.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/ipcore_dir/DM.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/general_IO.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/datapath.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/Bridge.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/mips.v" into library work
+Analyzing Verilog file "D:/works/computer organization/p8/up/p8_final_CPU/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/works/computer organization/p8/up/p8_final_CPU/mips.v" Line 107: Port w_grf_addr is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/works/computer organization/p8/up/p8_final_CPU/mips.v" Line 183: Port ACK_O is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/works/computer organization/p8/up/p8_final_CPU/datapath.v" Line 146: Port jal is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/works/computer organization/p8/up/p8_final_CPU/MEM.v" Line 163: Port EXLSet is not connected to this instance
+Completed static elaboration
+Compiling module IBUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKIN_PERIOD=40.0,CLK_FEE...
+Compiling module BUFG
+Compiling module clk_CPU
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module IM
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module DM
+Compiling module IFU
+Compiling module IF
+Compiling module IFtoID
+Compiling module Controller
+Compiling module GRF
+Compiling module ID
+Compiling module IDtoEX
+Compiling module ALU
+Compiling module EX
+Compiling module EXtoMEM
+Compiling module CP0
+Compiling module MEM
+Compiling module MEMtoRB
+Compiling module datapath
+Compiling module Bridge
+Compiling module TC1
+Compiling module numerical_tube_driver
+Compiling module general_IO
+Compiling module rx_unit
+Compiling module ctrl_shift
+Compiling module trans_reg
+Compiling module tx_unit
+Compiling module counter(size_cnt=16)
+Compiling module divisor(size_cnt_rx=16,size_cnt_...
+Compiling module MiniUART
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 44 Verilog Units
+Built simulation executable D:/works/computer organization/p8/up/p8_final_CPU/mips_tb_isim_beh.exe
+Fuse Memory Usage: 37320 KB
+Fuse CPU Usage: 890 ms

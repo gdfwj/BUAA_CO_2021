@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/works/computer organization/p8/first/SimpleLED_isim_beh.exe" -prj "D:/works/computer organization/p8/first/SimpleLED_beh.prj" "work.SimpleLED" "work.glbl" 
