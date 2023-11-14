@@ -1,14 +1,23 @@
 #                                      <center>CPU设计文档</center>
 
 This is the design document for a computer composition experiment P8, in this experiment we have been asked to design a CPU that supports a simple MIPS instruction set.The details of the experiment are given below:
+
 P0: Easy use of Logisim tools (operators, finite state machines)
+
 P1: Easy use of Verilog (operators, finite state machines)
+
 P2: Basic use of MIPS instruction set (implementation of some simple C programs with MIPS)
+
 P3: Building a single-cycle CPU with Logisim (11 instructions)
+
 P4: Building a single-cycle CPU with Verilog (11 instructions)
+
 P5: Building a pipelined CPU with Verilog (11 instructions)
+
 P6: Build DM separated pipeline CPU with Verilog (50+ instructions)
+
 P7: Require exception handling and clock interrupt support based on P6
+
 P8: add support for clocks, timing displays, UART serial communication, and simple external interaction tasks via MIPS programming
 
 ## 一、CPU设计方案综述
